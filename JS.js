@@ -21,16 +21,18 @@ function showSlides() {
 
 // buttons
 var inf = document.getElementById('info');
+console.log(inf);
 
-inf.onclick = function infohide(){
-  if (inf.innerHTML == 'Information'){
-    inf.innerHTML = 'Hide'
-    document.getElementById('ocdinformation').style.display = 'block';
+function infohide(){
+  x = document.getElementById("info");
+  if (x.innerHTML == 'Information'){
+    x.innerHTML = 'Hide'
+    document.getElementById('ocdinformation').style.display = "none";
 
   }
-  else if (inf.innerHTML == 'Hide'){
-    inf.innerHTML = 'Information';
-    document.getElementById('ocdinformation').style.display = 'none';
+  else if (info.innerHTML == 'Hide'){
+    info.innerHTML = 'Information';
+    document.getElementById('ocdinformation').style.display = "block";
 
   }
 
