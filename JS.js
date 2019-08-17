@@ -20,21 +20,48 @@ function showSlides() {
 
 
 // buttons
-var inf = document.getElementById('info');
-console.log(inf);
+
+
 
 function infohide(){
   x = document.getElementById("info");
   if (x.innerHTML == 'Information'){
     x.innerHTML = 'Hide'
-    document.getElementById('ocdinformation').style.display = "none";
-
-  }
-  else if (info.innerHTML == 'Hide'){
-    info.innerHTML = 'Information';
     document.getElementById('ocdinformation').style.display = "block";
 
   }
+  else if (x.innerHTML == 'Hide'){
+    x.innerHTML = 'Information';
+    document.getElementById('ocdinformation').style.display = "none";
 
-
+  }
 }
+
+function symphide(){
+  y = document.getElementById("symptom");
+  if (y.innerHTML == 'Symptom'){
+    y.innerHTML = 'Hide'
+    document.getElementById('ocdsymptom').style.display = "block";
+
+  }
+  else if (y.innerHTML == 'Hide'){
+    y.innerHTML = 'Symptom';
+    document.getElementById('ocdsymptom').style.display = "none";
+
+  }
+}
+
+function leadhide(){
+  y = document.getElementById("lead");
+  if (y.innerHTML == 'OCD Leads To'){
+    y.innerHTML = 'Hide'
+    document.getElementById('ocdlead').style.display = "block";
+
+  }
+  else if (y.innerHTML == 'Hide'){
+    y.innerHTML = 'OCD Leads To';
+    document.getElementById('ocdlead').style.display = "none";
+
+  }
+}
+
