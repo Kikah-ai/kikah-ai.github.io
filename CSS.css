@@ -82,11 +82,10 @@ hr1{
 #adhbtn {
   position:relative;
   top:123px;
-  left: -270px;
+  left: -450px;
   /* transform: translate(0%, 0%);
   -ms-transform: translate(-50%, 0%); */
   background-color:white;
-  color: black;
   font-size: 16px;
   padding: 12px 24px;
   border: none;
@@ -116,12 +115,11 @@ hr1{
 /* Style the button and place it in the middle of the container/image */
 #ocdbtn {
   position:relative;
-  top:-93px;
-  left: 840px;
+  top:-177px;
+  left: 1250px;
   /* transform: translate(0%, 0%);
   -ms-transform: translate(-50%, 0%); */
   background-color:white;
-  color: black;
   font-size: 16px;
   padding: 12px 24px;
   border: none;
@@ -254,9 +252,9 @@ img {vertical-align: middle;}
 .slideshow-container img{
     margin: inherit;
     width: 100%;
-    max-width: 1600px;
+    max-width: 2000px;
     min-width: 300px;
-    height:400px;
+    height:680px;
 }
 
 /* slideshow end */
@@ -394,5 +392,3 @@ img {vertical-align: middle;}
 #adhdprevention:hover  {
   background-color: black;
 }
-
-
